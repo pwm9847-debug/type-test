@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>유형 테스트 | 1인 창업 유형소</title>
+  <meta property="og:title" content="1인 창업 유형소 - 유형 테스트">
+  <meta property="og:description" content="나는 어떤 1인 기업가일까?">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧭%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header"><a class="logo" href="index.html">1인 창업 <b>유형소</b></a></header>
+
+    <section class="screen intro" id="intro">
+      <h1 id="i-title"></h1>
+      <p class="sub" id="i-sub"></p>
+      <div class="hero-img" id="i-img"><span id="i-emoji"></span></div>
+      <p class="hook" id="i-hook"></p>
+      <p class="meta" id="i-meta"></p>
+      <button class="start" id="start">시작하기</button>
+      <a class="more" href="index.html">다른 테스트 보기</a>
+    </section>
+
+    <section class="screen" id="quiz">
+      <div class="progress"><i id="bar"></i></div>
+      <div class="count" id="count"></div>
+      <h2 class="q" id="q"></h2>
+      <div id="choices"></div>
+      <button class="back" id="back">← 이전 질문</button>
+    </section>
+
+    <section class="screen result" id="result"></section>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="js/data.js"></script>
+  <!-- 새 테스트를 추가하면 여기에 한 줄 추가 (index.html에도 똑같이) -->
+  <script src="js/tests/founder-type.js"></script>
+  <script src="js/tests/start-block.js"></script>
+  <script src="js/tests/time-or-value.js"></script>
+  <script src="js/tests/quit-timing.js"></script>
+  <script src="js/tests/low-rate.js"></script>
+  <script src="js/tests/fail-style.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>
