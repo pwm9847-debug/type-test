@@ -9,6 +9,7 @@ TESTS.push({
   kicker: "내 단가가 낮은 진짜 이유",
   emoji: "🏷️",
   color: "#7a6a4f",
+  cardPos: "center 70%", // 허브 카드에서 가격표가 제목 글씨 위에 보이게 아래쪽을 보여줌
   title: "단가 심리 테스트",
   desc: "실력은 충분한데 왜 싸게 받을까?",
   subtitle: "실력은 충분한데 왜 싸게 받을까?",

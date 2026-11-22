@@ -9,6 +9,7 @@ TESTS.push({
   showCode: true, // 결과 위에 PSM 같은 글자 코드를 보여줌
   emoji: "🚀",
   color: "#77685a",
+  cardPos: "center 35%", // 허브 카드에서 모니터와 스탠드가 보이게 위쪽을 보여줌
   title: "나의 일하는 방식 테스트",
   desc: "나는 어떤 방식으로 혼자 일하는 사람일까?",
   subtitle: "나는 어떤 방식으로 혼자 일하는 사람일까?",

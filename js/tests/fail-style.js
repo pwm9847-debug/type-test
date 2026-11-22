@@ -9,6 +9,7 @@ TESTS.push({
   kicker: "내가 지치는 방식",
   emoji: "🪫",
   color: "#7a5455",
+  cardPos: "center 25%", // 허브 카드에서 램프 갓과 손이 보이게 위쪽을 보여줌
   title: "번아웃 패턴 테스트",
   desc: "나는 어디서 에너지가 새고 있을까?",
   subtitle: "나는 어디서 에너지가 새고 있을까?",
