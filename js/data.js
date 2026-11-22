@@ -4,7 +4,11 @@
 window.SITE = {
   name: "1인 창업 유형소",
   tagline: "시작 전, 프리랜서, 그리고 내 사업으로",
-  categories: ["🌱 시작 전", "💼 프리랜서", "🚀 내 사업으로"]
+  categories: ["🌱 시작 전", "💼 프리랜서", "🚀 내 사업으로"],
+  // 카카오톡 공유 설정: 카카오 개발자(developers.kakao.com)에서 앱을 만들고 [JavaScript 키]를 아래 따옴표 안에 붙여 넣으세요.
+  // 앱 설정의 [플랫폼 → Web]에 사이트 주소(https://pwm9847-debug.github.io)도 등록해야 합니다.
+  // 비워 두면 '카카오톡으로 공유하기' 버튼은 폰의 기본 공유 창(카카오톡 포함)을 열고, PC에서는 링크를 복사합니다.
+  kakaoJsKey: ""
 };
 
 // 사진 규칙: img/<테스트 id>.jpg 파일을 넣으면 허브 카드와 시작 화면에 자동으로 적용됩니다. (예: img/quit-timing.jpg)

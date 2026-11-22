@@ -19,9 +19,10 @@
       chips.appendChild(b);
     });
     cards.innerHTML = "";
-    TESTS.filter(function (t) { return current === "All" || t.category === current; }).forEach(function (t) {
+    TESTS.filter(function (t) { return current === "All" || t.category === current; }).forEach(function (t, i) {
       var a = document.createElement("a");
       a.className = "card";
+      a.style.setProperty("--i", i); // 카드가 위에서부터 차례로 나타나는 순서
       a.href = "test.html?id=" + encodeURIComponent(t.id);
       a.style.setProperty("--c", t.color); // 사진이 없을 때 보이는 배경색
       if (t.cardPos) a.style.backgroundPosition = t.cardPos; // 카드에서 사진이 보이는 위치 (테스트 파일의 cardPos)
